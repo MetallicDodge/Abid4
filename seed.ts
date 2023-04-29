@@ -2,7 +2,7 @@ import {Prisma, PrismaClient} from "@prisma/client"
 
 const client = new PrismaClient();
 
-const getaddress = ():Prisma.userCreateInput[]=>
+const getpayment = ():Prisma.userCreateInput[]=>
 [
      {
         payment_id : "0121";
